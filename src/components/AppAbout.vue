@@ -32,7 +32,6 @@ export default {
 <style scoped>
 .profile-container {
   display: flex;
-  width: 1204px; /* Largura total do componente */
   height: 350px; /* Altura total do componente */
   padding-top: 19px; /* Espaço no topo do componente */
   justify-content: center; /* Centraliza os itens horizontalmente */
@@ -49,7 +48,6 @@ export default {
   /* Estilos específicos para o cabeçalho */
   box-sizing: border-box; /* Garante que o padding não adicione largura extra */
   color: var(--Solid-Heading, #42446e);
-  font-family: Poppins;
   font-size: 58px;
   font-style: normal;
   font-weight: 700;

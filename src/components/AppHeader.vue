@@ -2,14 +2,17 @@
   <header class="header">
     <AppLogo class="logo" />
     <nav class="navigation">
-      <router-link to="/" class="nav-link">Home</router-link>
-      <router-link :to="{ name: 'About', hash: '#about' }" class="nav-link"
+      <router-link to="#home" class="nav-link" @click="scrollToSection"
+        >Home</router-link
+      >
+      <router-link to="/#about" class="nav-link" @click="scrollToSection"
         >About</router-link
       >
-      <router-link to="/tech-stack" class="nav-link">Tech Stack</router-link>
-      <router-link to="/projects" class="nav-link">Projects</router-link>
-      <router-link to="/contact" class="nav-link">Contact</router-link>
+      <router-link to="#tech-stack" class="nav-link">Tech Stack</router-link>
+      <router-link to="#projects" class="nav-link">Projects</router-link>
+      <router-link to="#contact" class="nav-link">Contact</router-link>
     </nav>
+
     <ul class="social-links">
       <li>
         <a href="https://www.linkedin.com/in/jaymesonmendes/" target="_blank">
@@ -48,15 +51,31 @@ export default {
   components: {
     AppLogo,
   },
+
+  methods: {
+    scrollToSection(event) {
+      // Prevenir o comportamento padrão para não adicionar o hash na URL
+      event.preventDefault();
+
+      // O 'to' do router-link é um objeto, então pegue o hash diretamente dele
+      const hash = event.currentTarget.getAttribute("href").split("#")[1];
+      const section = document.getElementById(hash);
+
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    },
+  },
 };
 </script>
 
 <style scoped>
 .header {
   display: inline-flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between; /* Espaço igual entre os elementos do cabeçalho */
   gap: 179px;
-  height: 59px;
+  height: 50px;
   margin-top: 41px;
 }
 

@@ -1,14 +1,35 @@
 <template>
   <AppHeader />
+  <AppAbout />
   <router-view />
 </template>
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import AppAbout from "./components/AppAbout.vue";
+
 export default {
   name: "App",
   components: {
     AppHeader,
+    AppAbout,
+  },
+  mounted() {
+    // Verifica se a rota atual é a raiz e faz scroll para a seção About
+    if (this.$route.path === "/") {
+      this.scrollToAbout();
+    }
+  },
+  methods: {
+    scrollToAbout() {
+      // Use o próximo tick para garantir que a página esteja renderizada
+      this.$nextTick(() => {
+        const aboutSection = document.getElementById("about");
+        if (aboutSection) {
+          aboutSection.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    },
   },
 };
 </script>
@@ -24,4 +45,10 @@ export default {
   max-width: 1600px;
   width: 100%;
 }
+
+.header {
+  margin-bottom: 120px;
+}
+
+
 </style>
