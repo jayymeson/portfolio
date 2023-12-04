@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AppAbout from "@/components/AppAbout.vue";
+import AppTechStacks from "@/components/AppTechStacks.vue";
 
 const routes = [
   {
@@ -7,7 +8,11 @@ const routes = [
     name: "About",
     component: AppAbout,
   },
-  // outras rotas...
+  {
+    path: "/tech",
+    name: "Tech",
+    component: AppTechStacks,
+  },
 ];
 
 const router = createRouter({

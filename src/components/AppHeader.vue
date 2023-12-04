@@ -8,7 +8,9 @@
       <router-link to="/#about" class="nav-link" @click="scrollToSection"
         >About</router-link
       >
-      <router-link to="#tech-stack" class="nav-link">Tech Stack</router-link>
+      <router-link to="#tech-stack" class="nav-link" @click="scrollToSection"
+        >Tech Stack</router-link
+      >
       <router-link to="#projects" class="nav-link">Projects</router-link>
       <router-link to="#contact" class="nav-link">Contact</router-link>
     </nav>
@@ -54,15 +56,15 @@ export default {
 
   methods: {
     scrollToSection(event) {
-      // Prevenir o comportamento padrão para não adicionar o hash na URL
       event.preventDefault();
+      const targetId = event.currentTarget
+        .getAttribute("href")
+        .replace("/", "")
+        .substring(1); // Remove o '/' e '#'
+      const targetElement = document.getElementById(targetId);
 
-      // O 'to' do router-link é um objeto, então pegue o hash diretamente dele
-      const hash = event.currentTarget.getAttribute("href").split("#")[1];
-      const section = document.getElementById(hash);
-
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
       }
     },
   },

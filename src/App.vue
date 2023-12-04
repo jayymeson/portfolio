@@ -1,18 +1,21 @@
 <template>
   <AppHeader />
   <AppAbout />
+  <AppTechStacks />
   <router-view />
 </template>
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
 import AppAbout from "./components/AppAbout.vue";
+import AppTechStacks from "./components/AppTechStacks.vue";
 
 export default {
   name: "App",
   components: {
     AppHeader,
     AppAbout,
+    AppTechStacks,
   },
   mounted() {
     // Verifica se a rota atual é a raiz e faz scroll para a seção About
@@ -50,5 +53,7 @@ export default {
   margin-bottom: 120px;
 }
 
-
+#about {
+  margin-bottom: 120px; /* Ajuste este valor conforme necessário */
+}
 </style>
