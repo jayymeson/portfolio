@@ -3,8 +3,6 @@ import AppAbout from "@/components/AppAbout.vue";
 import AppTechStacks from "@/components/AppTechStacks.vue";
 import AppProjects from "@/components/AppProjects.vue";
 
-//teste
-
 const routes = [
   {
     path: "/about",
