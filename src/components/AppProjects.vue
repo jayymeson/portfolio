@@ -11,7 +11,10 @@
         >
           <img :src="project.image" alt="Project image" class="project-image" />
         </a>
-        <h3>{{ project.title }}</h3>
+        <h3>
+          {{ project.title }}
+        </h3>
+        <p class="project-stack">{{ project.stack }}</p>
         <p>{{ project.description }}</p>
         <div class="tech-stack">{{ project.techStack.join(", ") }}</div>
         <div class="project-actions">
@@ -113,6 +116,16 @@ export default {
 .project-card h3 {
   font-size: 22px; /* Exemplo de tamanho da fonte, ajuste conforme necessário */
   margin: 16px; /* Espaço ao redor do título */
+}
+
+.project-info {
+  text-align: left;
+  padding: 0 16px; /* Alinhe com o restante do conteúdo do card */
+}
+.project-stack {
+  font-size: 16px; /* Tamanho da fonte menor para diferenciar do título */
+  color: #666; /* Uma cor mais clara ou qualquer outra cor de sua escolha */
+  margin-bottom: 16px; /* Espaço antes da descrição */
 }
 
 .project-card p {

@@ -1,56 +1,63 @@
 [
   {
     "id": 1,
-    "title": "NFT - Nature Feature Ticket",
-    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "title": "Xyami Marketplace",
+    "description": "This project is a marketplace that is under development for a large chain of shopping malls in Angola",
+    "stack": "Backend",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
-      "PostgreSQL",
-      "HTML",
-      "CSS",
-      "ReactJs"
+      "MongoDB",
+      "Kubernetes",
+      "Docker",
+      "RabbitMQ",
+      "Microservices"
     ],
-    "image": "/nft.png",
-    "previewLink": "",
+    "image": "/xyami-mk.png",
+    "previewLink": "https://marketplace-xyami.vercel.app/",
     "codeLink": ""
   },
   {
     "id": 2,
-    "title": "NFT - Nature Feature Ticket",
-    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "title": "Xyami Backoffice",
+    "description": "Xyami Backoffice is the manageable part of the store registered with the Marketplace",
+    "stack": "Backend",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
-      "PostgreSQL",
-      "HTML",
-      "CSS",
-      "ReactJs"
+      "MongoDB",
+      "Kubernetes",
+      "Docker",
+      "RabbitMQ",
+      "Microservices"
     ],
-    "image": "/nft.png",
-    "previewLink": "",
+    "image": "/xyami-bck.png",
+    "previewLink": "https://backoffice-marketplace.vercel.app/auth/login",
     "codeLink": ""
   },
   {
     "id": 3,
-    "title": "NFT - Nature Feature Ticket",
-    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "title": "Xyami Headoffice",
+    "description": "Xyami Headoffice is the part of the marketplace that only administrators can access.",
+    "stack": "Backend",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
-      "PostgreSQL",
-      "HTML",
-      "CSS",
-      "ReactJs"
+      "MongoDB",
+      "Kubernetes",
+      "Docker",
+      "RabbitMQ",
+      "Microservices"
     ],
-    "image": "/nft.png",
-    "previewLink": "",
+    "image": "/xyami-hdo.png",
+    "previewLink": "https://headoffice-xyami-marketplace.vercel.app/auth/sign-in",
     "codeLink": ""
   },
   {
     "id": 4,
     "title": "NFT - Nature Feature Ticket",
     "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "stack": "Fullstack",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
@@ -60,13 +67,14 @@
       "ReactJs"
     ],
     "image": "/nft.png",
-    "previewLink": "",
-    "codeLink": ""
+    "previewLink": "https://nft-cloudwalk.vercel.app/",
+    "codeLink": "https://github.com/seven-cloudwalk/backend-seven-cloudwalk"
   },
   {
     "id": 5,
     "title": "Pizza Fresh",
     "description": "This project was developed as a form of evaluation for a module of the course that I was a student at.",
+    "stack": "Fullstack",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
@@ -81,8 +89,9 @@
   },
   {
     "id": 6,
-    "title": "Pizza Fresh",
-    "description": "This project was developed as a form of evaluation for a module of the course that I was a student at.",
+    "title": "Hyperlocal Bootcamp Menu",
+    "description": "This project was developed for a bootcamp with the company Hyperlocal. They wanted an interactive menu.",
+    "stack": "Fullstack",
     "techStack": [
       "Tech Stack: Node.js",
       "NestJS",
@@ -91,8 +100,8 @@
       "CSS",
       "ReactJs"
     ],
-    "image": "/pizza-fresh.png",
-    "previewLink": "https://frontend-react-pizza-fresh-1qdcnv1k1-jayymeson.vercel.app/",
-    "codeLink": "https://github.com/jayymeson/backend-nest-pizza-fresh"
+    "image": "/hyperlocal.png",
+    "previewLink": "https://hyperlocal-frontend-chefhubb.vercel.app/",
+    "codeLink": "https://github.com/equipe-03/hyperlocal-backend"
   }
 ]
