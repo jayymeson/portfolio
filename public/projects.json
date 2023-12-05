@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "NFT - Nature Feature Ticket",
+    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/nft.png",
+    "previewLink": "",
+    "codeLink": ""
+  },
+  {
+    "id": 2,
+    "title": "NFT - Nature Feature Ticket",
+    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/nft.png",
+    "previewLink": "",
+    "codeLink": ""
+  },
+  {
+    "id": 3,
+    "title": "NFT - Nature Feature Ticket",
+    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/nft.png",
+    "previewLink": "",
+    "codeLink": ""
+  },
+  {
+    "id": 4,
+    "title": "NFT - Nature Feature Ticket",
+    "description": "This project was developed for a bootcamp. The application consisted of financing a tree and thus earning an NFT from that tree.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/nft.png",
+    "previewLink": "",
+    "codeLink": ""
+  },
+  {
+    "id": 5,
+    "title": "Pizza Fresh",
+    "description": "This project was developed as a form of evaluation for a module of the course that I was a student at.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/pizza-fresh.png",
+    "previewLink": "https://frontend-react-pizza-fresh-1qdcnv1k1-jayymeson.vercel.app/",
+    "codeLink": "https://github.com/jayymeson/backend-nest-pizza-fresh"
+  },
+  {
+    "id": 6,
+    "title": "Pizza Fresh",
+    "description": "This project was developed as a form of evaluation for a module of the course that I was a student at.",
+    "techStack": [
+      "Tech Stack: Node.js",
+      "NestJS",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+      "ReactJs"
+    ],
+    "image": "/pizza-fresh.png",
+    "previewLink": "https://frontend-react-pizza-fresh-1qdcnv1k1-jayymeson.vercel.app/",
+    "codeLink": "https://github.com/jayymeson/backend-nest-pizza-fresh"
+  }
+]

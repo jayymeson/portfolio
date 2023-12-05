@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AppAbout from "@/components/AppAbout.vue";
 import AppTechStacks from "@/components/AppTechStacks.vue";
+import AppProjects from "@/components/AppProjects.vue";
+
 
 const routes = [
   {
@@ -12,6 +14,11 @@ const routes = [
     path: "/tech",
     name: "Tech",
     component: AppTechStacks,
+  },
+  {
+    path: "/projects",
+    name: "Projects",
+    component: AppProjects,
   },
 ];
 
