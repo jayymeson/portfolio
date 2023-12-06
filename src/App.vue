@@ -3,6 +3,7 @@
   <AppAbout />
   <AppTechStacks />
   <AppProjects />
+  <AppFooter />
   <router-view />
 </template>
 
@@ -11,6 +12,7 @@ import AppHeader from "./components/AppHeader.vue";
 import AppAbout from "./components/AppAbout.vue";
 import AppTechStacks from "./components/AppTechStacks.vue";
 import AppProjects from "./components/AppProjects.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   name: "App",
@@ -19,6 +21,7 @@ export default {
     AppAbout,
     AppTechStacks,
     AppProjects,
+    AppFooter,
   },
   mounted() {
     // Verifica se a rota atual é a raiz e faz scroll para a seção About
