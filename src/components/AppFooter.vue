@@ -57,7 +57,6 @@
             @click="scrollToSection"
             >Tech Stack</router-link
           >
-          <li><a href="#contact">Contact</a></li>
           <li><a href="#experiences">Experiences</a></li>
           <p class="credit-text">
             Built by <span class="gradient-text">Jaymeson Mendes </span> with

@@ -12,7 +12,6 @@
         >Tech Stack</router-link
       >
       <router-link to="#projects" class="nav-link">Projects</router-link>
-      <router-link to="#contact" class="nav-link">Contact</router-link>
       <router-link to="#contact" class="nav-link">Experiences</router-link>
     </nav>
 
