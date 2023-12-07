@@ -57,7 +57,13 @@
             @click="scrollToSection"
             >Tech Stack</router-link
           >
-          <li><a href="#experiences">Experiences</a></li>
+          <router-link
+            to="#profile"
+            class="nav-link"
+            @click="scrollToSection"
+            >Profile</router-link
+          >
+
           <p class="credit-text">
             Built by <span class="gradient-text">Jaymeson Mendes </span> with
             love & redbull

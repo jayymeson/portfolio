@@ -4,7 +4,7 @@
       <!-- Informações do perfil aqui -->
       <h1>
         Hi 👋, My name is <span class="gradient-text">Jaymeson. </span>I build
-        things for the web, specializing in Nodejs Backend.
+        things for the web. Nodejs Backend Specialist.
       </h1>
     </div>
     <div class="profile-image">

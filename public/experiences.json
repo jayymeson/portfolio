@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Backend Developer",
+    "company": "Sparktech AO",
+    "location": "Luanda - AO",
+    "type": "Full Time",
+    "period": "Mar 2023 - now",
+    "companyIconUrl": "",
+    "dateIconUrl": ""
+  },
+  {
+    "id": 2,
+    "title": "Project Manager",
+    "company": "GETIC",
+    "location": "Mossoró - BR",
+    "type": "Full Time",
+    "period": "Aug 2022 - Jan 2023",
+    "companyIconUrl": "",
+    "dateIconUrl": ""
+  }
+
+]

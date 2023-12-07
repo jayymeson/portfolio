@@ -3,6 +3,8 @@
   <AppAbout />
   <AppTechStacks />
   <AppProjects />
+  <AppExperiences />
+  <AppEducation />
   <AppFooter />
   <router-view />
 </template>
@@ -13,6 +15,8 @@ import AppAbout from "./components/AppAbout.vue";
 import AppTechStacks from "./components/AppTechStacks.vue";
 import AppProjects from "./components/AppProjects.vue";
 import AppFooter from "./components/AppFooter.vue";
+import AppExperiences from "./components/AppExperiences.vue";
+import AppEducation from "./components/AppEducation.vue";
 
 export default {
   name: "App",
@@ -21,6 +25,8 @@ export default {
     AppAbout,
     AppTechStacks,
     AppProjects,
+    AppExperiences,
+    AppEducation,
     AppFooter,
   },
   mounted() {
@@ -50,7 +56,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   max-width: 1600px;
   width: 100%;
 }
